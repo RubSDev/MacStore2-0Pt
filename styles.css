@@ -298,6 +298,12 @@ section {
   min-width: 230px !important;
 }
 
+/*  Section Blog */
+#cardSO {
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
 /* Media Q Min*/
 /* … */
 @media (min-width: 1920px) {
