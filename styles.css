@@ -304,6 +304,12 @@ section {
   font-family: "Nunito Sans", sans-serif;
 }
 
+/* Customer Testimonials Carousel Section */
+.containerTestimonials {
+  background-color: #2c3e50;
+  height: 270px;
+  color: #d7f1f4;
+}
 /* Media Q Min*/
 /* … */
 @media (min-width: 1920px) {
