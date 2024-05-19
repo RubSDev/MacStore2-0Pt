@@ -304,6 +304,15 @@ section {
   font-family: "Nunito Sans", sans-serif;
 }
 
+.carBlogHover:hover {
+  background-color: #2c3e50;
+  color: #c9f5f9;
+  cursor: pointer;
+}
+.carBlogHover:hover .textRedHob {
+  color: #fc6161;
+}
+
 /* Customer Testimonials Carousel Section */
 .containerTestimonials {
   background-color: #2c3e50;
@@ -321,6 +330,17 @@ section {
   background-color: #2c3e50;
   width: 80px;
   height: 50px;
+}
+.cardBranW {
+  background-color: white;
+  cursor: pointer;
+}
+.cardBranW:hover {
+  background-color: #fc6161;
+}
+
+.cardBranW:hover .textTitleBrandsCW {
+  color: white;
 }
 
 /* Footer */
@@ -348,6 +368,10 @@ footer {
   color: white;
   margin-bottom: 5px;
 }
+.textFooter:hover {
+  color: #fc6161;
+  cursor: pointer;
+}
 .iconFooter {
   color: #fc6161;
   margin-right: 6px;
@@ -358,6 +382,12 @@ footer {
   color: #767676 !important;
   width: 100%;
   font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.containePTags:hover {
+  border: solid 3px #d6d5d5;
+  color: #d6d5d5;
 }
 .containePTags {
   border: solid 3px #767676;
@@ -372,6 +402,13 @@ footer {
   padding: 3px;
   border-radius: 5px;
   margin-left: 6px;
+}
+.iconFooterSearch:hover {
+  color: #81f1dd;
+  border: solid 2px #81f1dd;
+  font-size: 16px;
+  transition: 0.5s;
+  cursor: pointer;
 }
 .containerAbout {
   margin-left: 18px;
