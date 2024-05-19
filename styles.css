@@ -342,6 +342,11 @@ section {
 .cardBranW:hover .textTitleBrandsCW {
   color: white;
 }
+.containerImageBrand {
+  width: 100px;
+  height: 70px;
+  background-color: white;
+}
 
 /* Footer */
 footer {
