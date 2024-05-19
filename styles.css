@@ -349,9 +349,15 @@ section {
 }
 
 /* Footer */
-footer {
+
+.footerWeb {
   background-color: #333333;
   height: 400px;
+  color: white;
+}
+.footerMobile {
+  background-color: #333333;
+  height: 100px;
   color: white;
 }
 .lineFooter {
@@ -436,6 +442,7 @@ footer {
 /* … */
 @media (min-width: 1920px) {
 }
+
 /* … */
 @media (min-width: 1280px) {
 }
@@ -450,6 +457,9 @@ footer {
 /* … */
 @media (min-width: 600px) {
   .navbMob {
+    display: none;
+  }
+  .footerMobile {
     display: none;
   }
 }
@@ -478,6 +488,10 @@ footer {
     display: none;
   }
 }
+
+/* … */
+@media (max-width: 600px) {
+}
 /* … */
 @media (max-width: 480px) {
 }
@@ -486,4 +500,10 @@ footer {
   .navWeb {
     display: none;
   }
+  .footerWeb {
+    display: none;
+  }
+}
+
+@media (max-width: 201px) {
 }
